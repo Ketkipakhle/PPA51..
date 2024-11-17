@@ -1,0 +1,73 @@
+
+class Singlelevel
+{
+    public static void main(String Args[])
+
+    {
+        Base bobj=new Derived();
+        bobj.Gun();
+         bobj.fun();
+          bobj.Sun();
+           bobj.Mun();
+            bobj.Run();
+             bobj.Bun();
+
+        System.out.println("inside main function");
+
+        
+
+
+    
+
+    }
+}
+class Base
+{
+    public int A,B;
+    
+     public void fun()
+    {
+        System.out.println("Inside Base fun");
+    }
+    public void Gun()
+    {
+        System.out.println("Inside Base Gun");
+    }
+    public void Sun()
+    {
+        System.out.println("Inside Base Sun");
+    }
+    public void Run()
+    {
+        System.out.println("Inside Base Run");
+    }
+
+
+
+
+
+}
+class Derived extends Base
+{
+    public  int x,y;
+         public void fun()
+    {
+        System.out.println("Inside Derived fun");
+    }
+    public void Gun()
+    {
+        System.out.println("Inside Derived Gun");
+    }
+    public void Mun()
+    {
+        System.out.println("Inside Derived Mun");
+    }
+    public void Bun()
+    {
+        System.out.println("Inside Derived Bun");
+    }
+
+
+
+
+}
